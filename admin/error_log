@@ -1,0 +1,5 @@
+[11-Jul-2023 23:17:18 Europe/Istanbul] PHP Warning:  move_uploaded_file(kayitlar/pdf01 (1).pdf): failed to open stream: No such file or directory in /home/ysuniono/paradigmjournal.org/dergi/admin/image_upload.php on line 36
+[11-Jul-2023 23:17:18 Europe/Istanbul] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpMR28tV' to 'kayitlar/pdf01 (1).pdf' in /home/ysuniono/paradigmjournal.org/dergi/admin/image_upload.php on line 36
+[11-Jul-2023 23:18:02 Europe/Istanbul] PHP Warning:  move_uploaded_file(kayitlar/pdf002233.pdf): failed to open stream: No such file or directory in /home/ysuniono/paradigmjournal.org/dergi/admin/image_upload.php on line 36
+[11-Jul-2023 23:18:02 Europe/Istanbul] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpWgFvRI' to 'kayitlar/pdf002233.pdf' in /home/ysuniono/paradigmjournal.org/dergi/admin/image_upload.php on line 36
+[11-Jul-2023 23:28:36 Europe/Istanbul] PHP Notice:  Undefined index: articleTitle in /home/ysuniono/paradigmjournal.org/dergi/admin/image_upload.php on line 33

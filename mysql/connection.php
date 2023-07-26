@@ -4,11 +4,11 @@ session_start();
 
 include_once ('db.php');
 $mysqlServer = "localhost";
-$mysqlUseName = "ysuniono_ibrahim";
-$mysqlPassword = "x3kap5216.";
+$mysqlUseName = "root";
+$mysqlPassword = ".";
 
 try {
-    $conn = new PDO("mysql:host=$mysqlServer;dbname=ysuniono_dergi2;charset=utf8", $mysqlUseName, $mysqlPassword);
+    $conn = new PDO("mysql:host=$mysqlServer;dbname=journal;charset=utf8", $mysqlUseName, $mysqlPassword);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     db::$conn = $conn;
 }

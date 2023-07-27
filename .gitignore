@@ -1,3 +1,7 @@
+*.img
+*.png
+*.pdf
+
 .env
 .env-development
 .env-production
